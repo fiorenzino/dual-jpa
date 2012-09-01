@@ -15,9 +15,6 @@ import javax.inject.Inject;
 @LocalBean
 public class ServiceAB implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	@Inject

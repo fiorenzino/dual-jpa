@@ -12,9 +12,7 @@ import javax.persistence.PersistenceContext;
 @Stateless
 @LocalBean
 public class SessionA implements Serializable {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	@PersistenceContext(unitName = "PuA")
 	protected EntityManager em;

@@ -22,9 +22,6 @@ import javax.ws.rs.core.MediaType;
 @LocalBean
 public class Rest implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	@Inject
 	SessionA sessionA;
