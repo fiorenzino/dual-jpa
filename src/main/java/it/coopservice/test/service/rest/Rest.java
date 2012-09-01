@@ -16,7 +16,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-
+/**
+ * 
+ * @author fiorenzo pizza fiorenzino@gmail.com
+ * 
+ */
 @Path("/v1/test")
 @Stateless
 @LocalBean
