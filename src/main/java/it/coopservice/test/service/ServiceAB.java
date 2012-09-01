@@ -10,7 +10,11 @@ import java.io.Serializable;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
-
+/**
+ * 
+ * @author fiorenzo pizza fiorenzino@gmail.com
+ * 
+ */
 @Stateless
 @LocalBean
 public class ServiceAB implements Serializable {
